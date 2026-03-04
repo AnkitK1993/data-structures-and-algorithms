@@ -6,7 +6,7 @@ public class LongestSubstring {
         int maxLen = 0;
         for(int i=0;i<s.length()-1;i++){
             int len=0;
-            for(int j=1;i<s.length();i++){
+            for(int j=1;j<s.length()-1-i;j++){
                 if(s.charAt(i)!=s.charAt(j))
                     len++;
             }
