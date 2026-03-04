@@ -25,6 +25,8 @@ public class Anagram {
             charCount.put(ch, charCount.getOrDefault(ch, 0) - 1);
         }
 
+        charCount.forEach((k,v)->System.out.println("Key : " + k + " || value : " + v));
+
         return !charCount.values().stream().anyMatch(x -> x != 0);
     }
 }
