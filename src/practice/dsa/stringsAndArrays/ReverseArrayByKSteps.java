@@ -36,5 +36,7 @@ public class ReverseArrayByKSteps {
         for (int k : nums)
             System.out.print(k);
         System.out.println();
+        System.out.println();
     }
+
 }
