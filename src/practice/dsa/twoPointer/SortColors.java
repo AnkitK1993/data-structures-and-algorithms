@@ -1,7 +1,5 @@
 package practice.dsa.twoPointer;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
 public class SortColors {
 
     public static void main(String[] args) {
